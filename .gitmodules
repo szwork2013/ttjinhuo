@@ -1,0 +1,12 @@
+[submodule "api-server"]
+	path = api-server
+	url = https://github.com/ttjinhuo/api-server.git
+[submodule "oauth2-server"]
+	path = oauth2-server
+	url = https://github.com/ttjinhuo/oauth2-server.git
+[submodule "adminEx"]
+	path = adminEx
+	url = https://github.com/ttjinhuo/adminEx.git
+[submodule "nginx"]
+	path = nginx
+	url = https://github.com/ttjinhuo/nginx.git
