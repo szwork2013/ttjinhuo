@@ -5,9 +5,9 @@ ROOT=$(pwd)
 componets=("api-server" "oauth2-server" "ttjinhuo.com" "adminEx" "nginx")
 for componet in ${componets[@]}
 do
-    echo "starting ${componet} ..."
+    echo "stop ${componet} ..."
     cd ${componet}
-    ./bin/start.sh
+    ./bin/stop.sh
     cd ..
 done
-echo "all componets are running."
+echo "all componets are stopped."
