@@ -10,3 +10,6 @@
 [submodule "nginx"]
 	path = nginx
 	url = https://github.com/ttjinhuo/nginx.git
+[submodule "ttjinhuo.com"]
+	path = ttjinhuo.com
+	url = https://github.com/ttjinhuo/ttjinhuo.com.git
